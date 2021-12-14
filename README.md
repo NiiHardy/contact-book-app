@@ -14,12 +14,12 @@ A contact book app built with [Flutter](https://flutter.dev)
 
 ## Art
 
-<img src="https://raw.githubusercontent.com/GhanaTechLab/AwesomeContactApp/main/screenshots/main.png" width="100%"  height="50%"/>
+<img src="https://raw.githubusercontent.com/adamaryee/contact_book_app/main/screenshots/main.png" width="100%"  height="50%"/>
 <br>
    
 <tr>
-    <td><img align="left" src="https://raw.githubusercontent.com/GhanaTechLab/AwesomeContactApp/main/screenshots/art_1.png" width="200" height="400"/></td>
-    <td><img src="https://raw.githubusercontent.com/GhanaTechLab/AwesomeContactApp/main/screenshots/art_2.png" width="200" height="400"/></td> 
+    <td><img align="left" src="https://raw.githubusercontent.com/adamaryee/contact_book_app/main/screenshots/art_1.png" width="200" height="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/adamaryee/contact_book_app/main/screenshots/art_2.png" width="200" height="400"/></td> 
 </tr>
 
 ## Getting Started
@@ -34,7 +34,7 @@ cd folder/to/clone-into/
 ```
 
 ```
-git clone https://github.com/GhanaTechLab/AwesomeContactApp.git
+git clone https://github.com/adamaryee/contact_book_app.git
 ```
 
 Then
