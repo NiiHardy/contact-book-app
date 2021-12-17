@@ -11,40 +11,40 @@ class HomeView2 extends StatelessWidget {
 
   final List<Map<String, String>> data = [
     {
-		"name": "Dominic Mathews",
-		"phone": "(278) 585-4447",
-		"email": "tortor@hotmail.couk",
-		"country": "South Korea",
-		"region": "Wyoming"
-	},
-	{
-		"name": "Colt Boone",
-		"phone": "1-364-565-0156",
-		"email": "imperdiet.nec.leo@hotmail.couk",
-		"country": "New Zealand",
-		"region": "Hồ Chí Minh City"
-	},
-	{
-		"name": "Arthur Herrera",
-		"phone": "(545) 662-6261",
-		"email": "senectus.et@icloud.ca",
-		"country": "Chile",
-		"region": "Basilicata"
-	},
-	{
-		"name": "Fulton Schroeder",
-		"phone": "(616) 444-0753",
-		"email": "nec.luctus.felis@protonmail.edu",
-		"country": "Nigeria",
-		"region": "Anambra"
-	},
-	{
-		"name": "Vivien Banks",
-		"phone": "(851) 516-3752",
-		"email": "risus.quis@yahoo.ca",
-		"country": "Turkey",
-		"region": "South Island"
-	}
+      "name": "Dominic Mathews",
+      "phone": "(278) 585-4447",
+      "email": "tortor@hotmail.couk",
+      "country": "South Korea",
+      "region": "Wyoming"
+    },
+    {
+      "name": "Colt Boone",
+      "phone": "1-364-565-0156",
+      "email": "imperdiet.nec.leo@hotmail.couk",
+      "country": "New Zealand",
+      "region": "Hồ Chí Minh City"
+    },
+    {
+      "name": "Arthur Herrera",
+      "phone": "(545) 662-6261",
+      "email": "senectus.et@icloud.ca",
+      "country": "Chile",
+      "region": "Basilicata"
+    },
+    {
+      "name": "Fulton Schroeder",
+      "phone": "(616) 444-0753",
+      "email": "nec.luctus.felis@protonmail.edu",
+      "country": "Nigeria",
+      "region": "Anambra"
+    },
+    {
+      "name": "Vivien Banks",
+      "phone": "(851) 516-3752",
+      "email": "risus.quis@yahoo.ca",
+      "country": "Turkey",
+      "region": "South Island"
+    }
   ];
 
   @override
@@ -118,7 +118,7 @@ class HomeView2 extends StatelessWidget {
                     },
                     leading: const CircleAvatar(
                       radius: 25,
-                      backgroundImage: AssetImage('assets/woman.jpg'),
+                      backgroundImage: AssetImage('assets/kemi.jpg'),
                     ),
                     title: const Text(
                       'Tobi Jones-Larbi',
