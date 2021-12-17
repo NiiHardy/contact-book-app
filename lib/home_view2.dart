@@ -15,7 +15,7 @@ class HomeView2 extends StatelessWidget {
       "phone": "1-373-325-2537",
       "email": "mus@google.edu",
       "country": "Ireland",
-      "region": "Connacht"
+      "region": "Connacht",
     },
     {
       "name": "Iola Wilson",
@@ -121,18 +121,18 @@ class HomeView2 extends StatelessWidget {
                     onTap: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
-                        return ContactDetailsView(
+                           return ContactDetailsView(
                             contact: Contact(
                                 country: 'Ghana',
                                 email: 'agshjdg@abc.com',
-                                name: 'Kemi Jones',
-                                phone: '123456765',
+                                name: 'Kemi Jones-Larbi',
+                                phone: '+2444444442442',
                                 region: 'Greater Accra Region'));
                       }));
                     },
                     leading: const CircleAvatar(
                       radius: 25,
-                      backgroundImage: AssetImage('assets/woman.jpg'),
+                      backgroundImage: AssetImage('assets/kemi.jpg'),
                     ),
                     title: const Text(
                       'Kemi Jones-Larbi',
@@ -221,3 +221,6 @@ class HomeView2 extends StatelessWidget {
     );
   }
 }
+
+
+

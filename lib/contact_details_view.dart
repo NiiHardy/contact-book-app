@@ -31,7 +31,7 @@ class ContactDetailsView extends StatelessWidget {
         children: [
           const CircleAvatar(
             radius: 70,
-            backgroundImage: AssetImage('assets/woman.jpg'),
+            backgroundImage: AssetImage('assets/kemi.jpg'),
           ),
           const SizedBox(height: 25),
           Center(
@@ -158,7 +158,10 @@ class ContactDetailsView extends StatelessWidget {
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
                     ),
-                    trailing: Image.asset('assets/whatsapp.png'),
+                    trailing: Padding(
+                      padding: const EdgeInsets.all(14.0),
+                      child: Image.asset('assets/whatsapp.png'),
+                    ),
                   ),
                   ListTile(
                     title: const Text(
@@ -166,7 +169,10 @@ class ContactDetailsView extends StatelessWidget {
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
                     ),
-                    trailing: Image.asset('assets/telegram.png'),
+                    trailing: Padding(
+                      padding: const EdgeInsets.all(14.0),
+                      child: Image.asset('assets/telegram.png'),
+                    ),
                   ),
                 ],
               ),
