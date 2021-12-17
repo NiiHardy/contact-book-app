@@ -11,54 +11,40 @@ class HomeView2 extends StatelessWidget {
 
   final List<Map<String, String>> data = [
     {
-      "name": "Mira Peck",
-      "phone": "1-373-325-2537",
-      "email": "mus@google.edu",
-      "country": "Ireland",
-      "region": "Connacht"
-    },
-    {
-      "name": "Iola Wilson",
-      "phone": "272-3419",
-      "email": "tellus.non@aol.com",
-      "country": "Pakistan",
-      "region": "Punjab"
-    },
-    {
-      "name": "Rudyard Vega",
-      "phone": "1-619-675-9240",
-      "email": "ligula@google.net",
-      "country": "South Korea",
-      "region": "South Island"
-    },
-    {
-      "name": "Kirsten Mcfadden",
-      "phone": "723-5137",
-      "email": "id.nunc@outlook.couk",
-      "country": "Pakistan",
-      "region": "Munster"
-    },
-    {
-      "name": "Scott Burns",
-      "phone": "860-2578",
-      "email": "nam@protonmail.com",
-      "country": "Mexico",
-      "region": "Andaman and Nicobar Islands"
-    },
-    {
-      "name": "Oliver Myers",
-      "phone": "1-315-566-3358",
-      "email": "lorem.eget@outlook.net",
-      "country": "Mexico",
-      "region": "Aceh"
-    },
-    {
-      "name": "Iona Patrick",
-      "phone": "1-427-268-2085",
-      "email": "fusce@google.couk",
-      "country": "Chile",
-      "region": "Kurgan Oblast"
-    }
+		"name": "Dominic Mathews",
+		"phone": "(278) 585-4447",
+		"email": "tortor@hotmail.couk",
+		"country": "South Korea",
+		"region": "Wyoming"
+	},
+	{
+		"name": "Colt Boone",
+		"phone": "1-364-565-0156",
+		"email": "imperdiet.nec.leo@hotmail.couk",
+		"country": "New Zealand",
+		"region": "Hồ Chí Minh City"
+	},
+	{
+		"name": "Arthur Herrera",
+		"phone": "(545) 662-6261",
+		"email": "senectus.et@icloud.ca",
+		"country": "Chile",
+		"region": "Basilicata"
+	},
+	{
+		"name": "Fulton Schroeder",
+		"phone": "(616) 444-0753",
+		"email": "nec.luctus.felis@protonmail.edu",
+		"country": "Nigeria",
+		"region": "Anambra"
+	},
+	{
+		"name": "Vivien Banks",
+		"phone": "(851) 516-3752",
+		"email": "risus.quis@yahoo.ca",
+		"country": "Turkey",
+		"region": "South Island"
+	}
   ];
 
   @override
@@ -124,8 +110,8 @@ class HomeView2 extends StatelessWidget {
                         return ContactDetailsView(
                             contact: Contact(
                                 country: 'Ghana',
-                                email: 'agshjdg@abc.com',
-                                name: 'Kemi Jones',
+                                email: 'tettehghana@abc.com',
+                                name: 'Tobi Jones-Larbi',
                                 phone: '123456765',
                                 region: 'Greater Accra Region'));
                       }));
@@ -135,11 +121,11 @@ class HomeView2 extends StatelessWidget {
                       backgroundImage: AssetImage('assets/woman.jpg'),
                     ),
                     title: const Text(
-                      'Kemi Jones-Larbi',
+                      'Tobi Jones-Larbi',
                       style:
                           TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
                     ),
-                    subtitle: const Text('+2444444442442'),
+                    subtitle: const Text('+233 246 385 95'),
                     trailing: const IconButton(
                         onPressed: null, icon: Icon(Icons.more_horiz)),
                   );
